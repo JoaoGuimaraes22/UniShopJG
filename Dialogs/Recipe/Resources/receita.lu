@@ -1,0 +1,14 @@
+# Receita
+- consulta esta receita
+- lista as receitas disponíveis
+- que receitas tens
+- receitas
+- tens esta receita
+
+> # Entity definitions
+
+$userLocation:simple
+
+$userName:simple
+
+

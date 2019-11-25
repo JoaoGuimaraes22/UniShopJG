@@ -1,0 +1,65 @@
+{
+  "name": "UStore",
+  "description": "",
+  "services": [
+    {
+      "type": "abs",
+      "id": "3",
+      "name": "UStore",
+      "tenantId": "0ebaee52-dc72-4b5a-a6e5-8f91c08f7f51",
+      "subscriptionId": "547c5e64-6e16-42fa-b9c9-a113ac37c119",
+      "resourceGroup": "RG-Cortana-UStore",
+      "serviceName": "UStore",
+      "appId": "bd625f53-9876-4845-aada-fd4633fbe94a"
+    },
+    {
+      "type": "endpoint",
+      "id": "1",
+      "name": "development",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages"
+    },
+    {
+      "type": "endpoint",
+      "id": "2",
+      "name": "production",
+      "appId": "bd625f53-9876-4845-aada-fd4633fbe94a",
+      "appPassword": "xieOJFX34_)%wrjmCZF653+",
+      "endpoint": "https://torej5p1.azurewebsites.net/api/messages"
+    },
+    {
+      "type": "blob",
+      "id": "4",
+      "name": "toremx5h",
+      "serviceName": "toremx5h",
+      "tenantId": "0ebaee52-dc72-4b5a-a6e5-8f91c08f7f51",
+      "subscriptionId": "547c5e64-6e16-42fa-b9c9-a113ac37c119",
+      "resourceGroup": "RG-Cortana-UStore",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=toremx5h;AccountKey=A9wUrFJNpZi+5v+MIwsac/auBq2eyvUK3c93jkRfTiXYk+kMRUiXUp6jN45HpAqP4GzCc/1+7j3olBG+hSVhTA==;EndpointSuffix=core.windows.net"
+    },
+    {
+      "type": "luis",
+      "appId": "d30cdf38-4487-4ee8-a29b-e105a4c4774f",
+      "authoringKey": "5aed59aec3cb4cba9465082156349932",
+      "version": "0.1",
+      "region": "westus",
+      "name": "UStoreBotLuisApplication",
+      "id": "5"
+    },
+    {
+      "type": "appInsights",
+      "tenantId": "0ebaee52-dc72-4b5a-a6e5-8f91c08f7f51",
+      "subscriptionId": "547c5e64-6e16-42fa-b9c9-a113ac37c119",
+      "resourceGroup": "RG-Cortana-UStore",
+      "name": "UStore4wuw54",
+      "serviceName": "UStore4wuw54",
+      "instrumentationKey": "UMIGrarFPHHmZ01P4SKQZQ==!mAIm8QUeSE2j+Q6Joa3B3Z4ekEPpa4CWV0eCtzmwfzKPzLsmn2w+oCEdFVDBT+l0Me0ABRdF3/ICHOD0AeH0uEgIuELfP29wQFF5yNYDPcozItPA01kc/pJxIne2KT3y",
+      "applicationId": "d789a6de-d9a5-48ce-b197-53104fb9a3a6",
+      "apiKeys": {},
+      "id": "83"
+    }
+  ],
+
+  "version": "2.0"
+}

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPOINTMENT_CONFIRMATION" xml:space="preserve">
+    <value>I have created an appointment on your calendar for 8 PM. That’s all. I will ask your feedback after the party.
+Enjoy!</value>
+  </data>
+  <data name="ASK_DINNER_DATE" xml:space="preserve">
+    <value>What date are you planning for the dinner?</value>
+  </data>
+  <data name="ASK_USER_INPUT_INGREDIENT" xml:space="preserve">
+    <value>What would be the main ingredient?</value>
+  </data>
+  <data name="ASK_USER_ORDER_PIZZA" xml:space="preserve">
+    <value>I will update my knowledge base to effectively help you next time.
+Meanwhile, I will suggest you a Pizza as a safe choice. May I order it for you?</value>
+  </data>
+  <data name="AVAILABLE_RECIPES" xml:space="preserve">
+    <value>We have the following available recipes:</value>
+  </data>
+  <data name="AVAILABLE_STORAGE_INGREDIENTS" xml:space="preserve">
+    <value>You have the following ingredients in your storage:</value>
+  </data>
+  <data name="CONFIRM_DINNER_DATE" xml:space="preserve">
+    <value>{0}. Is that correct?</value>
+  </data>
+  <data name="CONFIRM_TOTAL_PRICE" xml:space="preserve">
+    <value>The order is placed and pending confirmation. The purchase amount will be {0}€. You will be using the associated credit card for payment. Do you confirm the order?</value>
+    <comment>Your order amounts to {0}€. Do you confirm? -- antigoThe order is placed and pending confirmation. The purchase amount will be {0}€. I can see you will get a bonus BONUS ITEM, a special gift from UniShop. You will be using the associated credit card for payment. Do you confirm the order?</comment>
+  </data>
+  <data name="END_DIALOG" xml:space="preserve">
+    <value>I'm glad I could help!</value>
+  </data>
+  <data name="END_PURCHASE" xml:space="preserve">
+    <value>Thank you for your order. You will receive an email with the order details.</value>
+  </data>
+  <data name="ENOUGH_INGREDIENTS" xml:space="preserve">
+    <value>You have enough ingredients in storage to cook the recipe. Good cooking!</value>
+  </data>
+  <data name="FOLLOWING_INGREDIENTS" xml:space="preserve">
+    <value>Take the following ingredients in mind:</value>
+  </data>
+  <data name="INGREDIENTS_NOT_FOUND" xml:space="preserve">
+    <value>We didn´t find ingredients for that recipe.</value>
+  </data>
+  <data name="INITIAL_DIALOG" xml:space="preserve">
+    <value>I can assyst you on the arrangements. Do you need help with the menu?</value>
+  </data>
+  <data name="NECESSARY_INGREDIENTS" xml:space="preserve">
+    <value>Based on your pantry stock, we will need to buy the following ingredients:</value>
+  </data>
+  <data name="NO_AVAILABLE_STORAGE_INGREDIENTS" xml:space="preserve">
+    <value>You don't have available ingredients in storage for this recipe.</value>
+  </data>
+  <data name="NUMBER_OF_PEOPLE" xml:space="preserve">
+    <value>How many guest friends would you invite?</value>
+  </data>
+  <data name="ONLY_MEETING_REQUEST" xml:space="preserve">
+    <value>Let me help you with the meeting request.</value>
+  </data>
+  <data name="ORDER_NECESSARY_INGREDIENTS" xml:space="preserve">
+    <value>May I proceed to the order request?</value>
+  </data>
+  <data name="ORDER_PIZZA" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="PROCEED_LOGIN" xml:space="preserve">
+    <value>Fine! I will now proceed to your UniShop account login.</value>
+  </data>
+  <data name="RECIPES_SUGESTED" xml:space="preserve">
+    <value>Great! I would suggest you the following dishes:</value>
+    <comment>Great! Lately I have been searching for popular dishes. I would suggest you {0}, {1} or {2}. Which one would you prefer?</comment>
+  </data>
+  <data name="RECIPE_NOT_AVAILABLE" xml:space="preserve">
+    <value>The recipe is not available.</value>
+  </data>
+  <data name="RECIPE_OF_THE_WEEK" xml:space="preserve">
+    <value>If you choose the recipe of the week which is {0}, you will get a {1}% discount on {2}. Would it be a good idea?</value>
+    <comment>I have checked UniShop latest promotions based on your preferences. If you choose the recipe of the week which is {0}, you will get a {1}% discount on {2}. Would it be a good idea?</comment>
+  </data>
+  <data name="RECIPE_PROMPT" xml:space="preserve">
+    <value>Please choose a recipe.</value>
+  </data>
+  <data name="UPDATE_CART_LATER_USE" xml:space="preserve">
+    <value>I will update your shopping cart for later use. You can recall it anytime.</value>
+  </data>
+  <data name="USE_STORAGE_INGREDIENTS" xml:space="preserve">
+    <value>Do you want to use the ingredients that you have in storage?</value>
+  </data>
+  <data name="WHICH_RECIPE_PREFERES" xml:space="preserve">
+    <value>Which one would you prefer?</value>
+  </data>
+</root>

@@ -1,0 +1,1 @@
+az bot publish --resource-group RG-Cortana-UStore -n UStore --subscription 547c5e64-6e16-42fa-b9c9-a113ac37c119 -v v4 --verbose --proj-name "UStoreBot.csproj" 

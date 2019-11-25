@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <CodeAnalysisRuleSet>BasicBot.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DB_INIT_SCRIPTS\**" />
+    <Compile Remove="deprecated_bot_files\**" />
+    <Compile Remove="TRANSCRIPTS\**" />
+    <Content Remove="DB_INIT_SCRIPTS\**" />
+    <Content Remove="deprecated_bot_files\**" />
+    <Content Remove="TRANSCRIPTS\**" />
+    <EmbeddedResource Remove="DB_INIT_SCRIPTS\**" />
+    <EmbeddedResource Remove="deprecated_bot_files\**" />
+    <EmbeddedResource Remove="TRANSCRIPTS\**" />
+    <None Remove="DB_INIT_SCRIPTS\**" />
+    <None Remove="deprecated_bot_files\**" />
+    <None Remove="TRANSCRIPTS\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="UStore.bot" />
+    <None Remove="UStoreBot.bot" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="UStore.bot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.ContentModerator" Version="0.12.1-preview" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Language" Version="1.0.1-preview" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.AI.Luis" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Azure" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.TemplateManager" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Configuration" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Schema" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Graph" Version="1.10.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta008">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+ <ItemGroup>
+    <None Update="*.bot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+ <ItemGroup>
+   <Compile Update="Dialogs\Recipe\Resources\RecipeDialogStrings.Designer.cs">
+     <DesignTime>True</DesignTime>
+     <AutoGen>True</AutoGen>
+     <DependentUpon>RecipeDialogStrings.resx</DependentUpon>
+   </Compile>
+ </ItemGroup>
+
+ <ItemGroup>
+   <Content Update="appsettings.json">
+     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
+ </ItemGroup>
+
+ <ItemGroup>
+   <EmbeddedResource Update="Dialogs\Recipe\Resources\RecipeDialogStrings.resx">
+     <Generator>ResXFileCodeGenerator</Generator>
+     <LastGenOutput>RecipeDialogStrings.Designer.cs</LastGenOutput>
+   </EmbeddedResource>
+ </ItemGroup> 
+
+  <Import Project="PostDeployScripts\IncludeSources.targets" Condition="Exists('PostDeployScripts\IncludeSources.targets')" />
+  <Import Project="..\PostDeployScripts\IncludeSources.targets" Condition="Exists('..\PostDeployScripts\IncludeSources.targets')" />
+<PropertyGroup><UserSecretsId>810e6d76-d65c-40b3-b272-d1ee7007eb6e</UserSecretsId></PropertyGroup>
+</Project>

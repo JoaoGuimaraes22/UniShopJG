@@ -1,0 +1,724 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "3",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "id": "620789e4-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:08+00:00",
+    "recipient": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-01-17T13:47:08.542Z",
+    "from": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "http://localhost:52863"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "id": "6207d800-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:08+00:00",
+    "recipient": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-01-17T13:47:08.544Z",
+    "from": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "http://localhost:52863"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "Olá",
+    "inputHint": "acceptingInput",
+    "replyToId": "6207d800-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "62791060-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:09+00:00",
+    "timestamp": "2019-01-17T13:47:09.286Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "recipes of Bacalhau",
+    "from": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2019-01-17T13:47:14.858Z",
+    "channelData": {
+      "clientActivityId": "1547732828528.3250456473660184.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "id": "65cb48a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:14+00:00",
+    "recipient": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:52863"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-01-17T13:47:15.928Z",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "replyToId": "65cb48a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "recipes of Bacalhau",
+        "alteredText": null,
+        "intents": {
+          "Receita": {
+            "score": 0.5083037
+          }
+        },
+        "entities": {
+          "$instance": {
+            "recipeName": [
+              {
+                "startIndex": 11,
+                "endIndex": 19,
+                "text": "bacalhau",
+                "type": "recipeName",
+                "score": 0.806221
+              }
+            ]
+          },
+          "recipeName": [
+            "bacalhau"
+          ]
+        }
+      },
+      "luisModel": {
+        "ModelID": "d30cdf38-4487-4ee8-a29b-e105a4c4774f"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "TimezoneOffset": null
+      },
+      "luisResult": {
+        "query": "recipes of Bacalhau",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "Receita",
+          "score": 0.5083037
+        },
+        "intents": null,
+        "entities": [
+          {
+            "entity": "bacalhau",
+            "type": "recipeName",
+            "startIndex": 11,
+            "endIndex": 18,
+            "score": 0.806221
+          }
+        ],
+        "compositeEntities": null,
+        "sentimentAnalysis": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "666e8d80-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:15+00:00",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "How many people will you be having for dinner?",
+    "speak": "How many people will you be having for dinner?",
+    "inputHint": "expectingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "65cb48a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "67320490-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:17+00:00",
+    "timestamp": "2019-01-17T13:47:17.209Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "2",
+    "from": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2019-01-17T13:47:20.732Z",
+    "channelData": {
+      "clientActivityId": "1547732828528.3250456473660184.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "id": "694b95c0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:20+00:00",
+    "recipient": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:52863"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-01-17T13:47:20.945Z",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "replyToId": "694b95c0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "2",
+        "alteredText": null,
+        "intents": {
+          "Greeting": {
+            "score": 0.5972817
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "d30cdf38-4487-4ee8-a29b-e105a4c4774f"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "TimezoneOffset": null
+      },
+      "luisResult": {
+        "query": "2",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "Greeting",
+          "score": 0.5972817
+        },
+        "intents": null,
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "696c1610-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:20+00:00",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "You need the following ingredients for that recipe:",
+    "speak": "You need the following ingredients for that recipe:",
+    "inputHint": "ignoringInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "694b95c0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "69afaec0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:21+00:00",
+    "timestamp": "2019-01-17T13:47:21.388Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "20 Ovos",
+    "inputHint": "acceptingInput",
+    "replyToId": "694b95c0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "6b3d53a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:23+00:00",
+    "timestamp": "2019-01-17T13:47:23.994Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "2 Bacalhaus",
+    "inputHint": "acceptingInput",
+    "replyToId": "694b95c0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "6bdcc7f0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:25+00:00",
+    "timestamp": "2019-01-17T13:47:25.039Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "Do you want to order the necessary ingredients?",
+    "speak": "Do you want to order the necessary ingredients?",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "type": "imBack",
+          "title": "No",
+          "value": "No"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "694b95c0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "6be1f810-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:25+00:00",
+    "timestamp": "2019-01-17T13:47:25.073Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "Yes",
+    "from": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2019-01-17T13:47:30.090Z",
+    "channelData": {
+      "clientActivityId": "1547732828528.3250456473660184.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "id": "6edf80a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:30+00:00",
+    "recipient": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:52863"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-01-17T13:47:30.286Z",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "replyToId": "6edf80a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "Yes",
+        "alteredText": null,
+        "intents": {
+          "Greeting": {
+            "score": 0.5972817
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "d30cdf38-4487-4ee8-a29b-e105a4c4774f"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "TimezoneOffset": null
+      },
+      "luisResult": {
+        "query": "Yes",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "Greeting",
+          "score": 0.5972817
+        },
+        "intents": null,
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "6efd8ff0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:30+00:00",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "You have the following ingredients in your storage:",
+    "speak": "You have the following ingredients in your storage:",
+    "inputHint": "ignoringInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "6edf80a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "6f11b430-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:30+00:00",
+    "timestamp": "2019-01-17T13:47:30.419Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "3 Ovos",
+    "inputHint": "acceptingInput",
+    "replyToId": "6edf80a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "6f15abd0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:30+00:00",
+    "timestamp": "2019-01-17T13:47:30.444Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "Do you want to use the ingredients that you have in storage?",
+    "speak": "Do you want to use the ingredients that you have in storage?",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "type": "imBack",
+          "title": "No",
+          "value": "No"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "6edf80a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "6f170b60-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:30+00:00",
+    "timestamp": "2019-01-17T13:47:30.454Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "Yes",
+    "from": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2019-01-17T13:47:32.274Z",
+    "channelData": {
+      "clientActivityId": "1547732828528.3250456473660184.6"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "id": "702cc120-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:32+00:00",
+    "recipient": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:52863"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-01-17T13:47:32.458Z",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "replyToId": "702cc120-1a5e-11e9-b4b7-df5f4dcffec6",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "Yes",
+        "alteredText": null,
+        "intents": {
+          "Greeting": {
+            "score": 0.5972817
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "d30cdf38-4487-4ee8-a29b-e105a4c4774f"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "TimezoneOffset": null
+      },
+      "luisResult": {
+        "query": "Yes",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "Greeting",
+          "score": 0.5972817
+        },
+        "intents": null,
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "7048d4a0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:32+00:00",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:52863",
+    "channelId": "emulator",
+    "from": {
+      "id": "3",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "62053ff0-1a5e-11e9-8ada-f53b3f3b84c4|livechat"
+    },
+    "recipient": {
+      "id": "9fa17188-e09c-48a6-b9f7-f7547ca662a1",
+      "role": "user"
+    },
+    "text": "Sorry, it looks like something went wrong.",
+    "inputHint": "acceptingInput",
+    "replyToId": "702cc120-1a5e-11e9-b4b7-df5f4dcffec6",
+    "id": "706647b0-1a5e-11e9-b4b7-df5f4dcffec6",
+    "localTimestamp": "2019-01-17T13:47:32+00:00",
+    "timestamp": "2019-01-17T13:47:32.651Z",
+    "locale": ""
+  }
+]

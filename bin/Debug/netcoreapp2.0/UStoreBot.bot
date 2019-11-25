@@ -1,0 +1,51 @@
+{
+  "name": "UStoreBot",
+  "padlock": "H7+py4/cy05T0WrqyoqOew==!8acSKoW9TpsERcO/8h0xkNGb3Dnd7WTaHXDVqrkcC/4tiZC85rWzacqYswVNoEAT",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "0736b2d1-7c66-4131-9bf8-721188fe9ed0",
+      "subscriptionId": "cb4c3c7c-4f7c-4720-9cfe-08b8d1af8433",
+      "resourceGroup": "ResourceUStoreBot_beta",
+      "serviceName": "UStoreBot",
+      "type": "abs",
+      "name": "UStoreBot",
+      "id": "1"
+    },
+    {
+      "connectionString": "hiOVn9CFuZOpckCidUMJlA==!IMdXWgAngJzYCP4fuulr6tytzR24PyFN1LpGzyV0JmJ7KIgjrXB7WH5dViA3rELAgDCvJYLOgcAyOCbehs86NPl6u6Ad4ydOlaH7ArEnu/gWba7GmMizKJpZEsxwMlvXUIbTPAKLoYpQCo9gmDG3y/xaCIU+/poK0j3BptKmPJ7dCW/A21mhnfPfQ8reDRf5TUlHN37DKKTAx7CCo6Sbjw==",
+      "tenantId": "0736b2d1-7c66-4131-9bf8-721188fe9ed0",
+      "subscriptionId": "cb4c3c7c-4f7c-4720-9cfe-08b8d1af8433",
+      "resourceGroup": "ResourceUStoreBot_beta",
+      "serviceName": "ustorebot98bd",
+      "name" : "ustorebot98bd",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "42c3a353-4f52-4974-ba56-e105e9a38538",
+      "appPassword": "jHKY/qS9vjf6RA7A4vwdfA==!KspRyNlBdqHVVCMkxl+ZZtCYgwUjAEW8t8/9n2UmsMM=",
+      "endpoint": "https://ustorebot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "appId": "d30cdf38-4487-4ee8-a29b-e105a4c4774f",
+      "authoringKey": "sA//u+QJ7/LBz/DGS0Jt4w==!/8FsYZbNBmv0OtJK2AUsO/jXDlT+9LI5j+EXzaNAPCFunPFfK39CcUEl0mk2NsUX",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "UStoreBotLuisApplication",
+      "id": "5"
+    }
+  ]
+}

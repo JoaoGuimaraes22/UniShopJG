@@ -1,0 +1,8 @@
+DROP TABLE [dbo].[__EFMigrationsHistory]
+DROP TABLE [dbo].[RecipeIngredients]
+DROP TABLE [dbo].[CartIngredient]
+DROP TABLE [dbo].[Discounts]
+DROP TABLE [dbo].[StoreRoomItems]
+DROP TABLE [dbo].[Recipes]
+DROP TABLE [dbo].[Ingredients]
+DROP TABLE [dbo].[Carts]

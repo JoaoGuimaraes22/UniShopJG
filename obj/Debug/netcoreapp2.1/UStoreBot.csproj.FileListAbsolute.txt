@@ -1,0 +1,14 @@
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.bot
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.dll.config
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.deps.json
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.runtimeconfig.json
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.runtimeconfig.dev.json
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.dll
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\bin\Debug\netcoreapp2.1\UStoreBot.pdb
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.csproj.GenerateResource.cache
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.csproj.CoreCompileInputs.cache
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.AssemblyInfoInputs.cache
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.AssemblyInfo.cs
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.dll
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.pdb
+C:\Users\joao.ferreira\source\repos\UStoreBot-src\obj\Debug\netcoreapp2.1\UStoreBot.Dialogs.Recipe.Resources.RecipeDialogStrings.resources
